@@ -19,7 +19,7 @@ div
     | For help on how to write categorization rules, see #[a(href="https://docs.activitywatch.net/en/latest/features/categorization.html") the documentation].
 
   // Category set switcher
-  div.my-3.p-3(style="background: var(--bs-light, #f8f9fa); border-radius: 4px;")
+  div.my-3.p-3.bg-light.rounded
     div.d-flex.align-items-center.flex-wrap(style="gap: 0.5rem;")
       span.font-weight-bold(style="white-space: nowrap") Category set:
       b-select(
